@@ -8,3 +8,5 @@
 * Which parts of the challenge did you find tedious?
 
 <!-- Add your reflection here. Remove the comment markers -->
+I found writing in html, and reworking the design in css to be really hard. First starting by writing the html code became like writing a pseudo code for a website, where I later on do the detailed designs with div ids and classes. However, knowing which div goes where was a bit tricky. While positioning, having to guess the pixel coordinates of where my image or text will go made me increment or decrease the values constantly was a bit tedious. However, I enjoyed being creative, although the outcome did not exactly match what I've had in mind. 
+I think I'll need to do a lot more practices on my own to get comfortable with making a webpage both visually pleasing and functional. 
