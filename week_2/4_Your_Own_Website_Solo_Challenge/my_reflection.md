@@ -1,6 +1,6 @@
 # U1.W2: Design, User Experience, and creating your website Reflection
 
-My Website url: <!-- Website URL here (remove comment) -->
+My Website url: http://itsyou.github.io/index.html
 
 Discuss the following:
 * What did you learn about design and user experience? 
@@ -22,6 +22,6 @@ Discuss the following:
 * Was it difficult to apply the material you learned? Did you find anything in your research you thought was super cool?
 
 	*	min/max-device-width and position:fixed was extremely cool. It took me some time for me to center-align a div, but I eventually ended up making the width 100% to make my page more fluid. Centering the header gives fluidity to some extent, but I soon realized when a webpage gets horizontally shrunk too much, the div ends up not being in the center due to margins that are necessary for its alignment even if I use perecent values for all its dimensions.
-	 
+
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
