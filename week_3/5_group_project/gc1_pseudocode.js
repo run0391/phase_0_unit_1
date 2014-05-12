@@ -38,4 +38,4 @@ My Experience throughout this challenge was quite enjoyable. It was my first tim
 people, and unlike my imagination, which was 4 people working on the project at the same time - it was more like a tag 
 team kind of work. It was new, and it really made me focus on how much I made my work clearer to the person who was 
 working after me. I guess programming in real world works more or less like this, since throughout the various material
-that we've studied, making code more readable and accessible to other seemed like to be a big deal.
+that we've studied, making code more readable and accessible to other seemed like to be a big deal. */
