@@ -14,7 +14,7 @@ We are going to create a repository to host your very own website! You'll be usi
 ## Release 0: Create a website repository
 
 1. **Log into GitHub**
-2. **Create a [new repository](https://github.com/new) **<br /><br />This will take you to the new repository form.<br /><br />![New repo form](../imgs/github-repo-1.jpg)
+2. **Create a [new repository](https://github.com/new)**<br /><br />This will take you to the new repository form.<br /><br />![New repo form](../imgs/github-repo-1.jpg)
 3. **Fill out the new repository form.** <ul><li>You *must, must, must* name your repository **[USERNAME].github.io**.</li><li>Your repository should be *public*.  </li><li>Check "Initialize this project with a README" and add an MIT license. </li></ul>![New repo form](../imgs/github-repo-2.jpg)<br /><br />I'm gonna say it again: You *must, must, must* name your repository **[USERNAME].github.io**. If you have trouble, double check you spelled it right. 
 4. Click on the **"Create Repository" button**
 5. Click on **settings** on the "Features" section, add a check next to "Issues." This will allow others to give you feedback on your site!
@@ -45,7 +45,7 @@ If you are working on Linux and/or want to challenge yourself further, skip to t
 
 This section is for Linux users or those who want to challenge themselves.  Later in DBC and in your life as a professional developer, you will use git and access GitHub using the command line (aka "terminal").
 
-Use [this tutorial](git_clone.md) to clone your repository on the command line.
+Use [this tutorial](../git_clone.md) to clone your repository on the command line.
 
 ## Release 2: Open Source
 

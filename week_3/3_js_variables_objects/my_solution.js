@@ -59,7 +59,7 @@ var members = ["John", "David", "Ashe", "Mary"];
 
 
 // __________________________________________
-// Driver Code:  Do not alter code below this line.
+// Driver Test Code:  Do not alter code below this line.
 
 function assert(test, message, test_number) {
   if (!test) {
