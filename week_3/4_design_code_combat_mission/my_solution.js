@@ -6,10 +6,10 @@
 // Mushrooms will generate a message which indicates their location when they are generated.
 
 // Pseudocode
-//	SET x, y grid to each max 5
+//	SET count to 0
 //	CREATE tharin javascript Object object
-//		SET x location property to 0
-//		SET y location property to 0 
+//		SET x location property to 1
+//		SET y location property to 1 
 //		INIT move right function
 //			INCREMENT x location by 1
 //		INIT move left function
@@ -19,16 +19,25 @@
 //		INIT move down function
 //			DECREMENT y location by 1
 //		SET tharin heatlh to 10
-//			IF tharin's x,y location equals mushroom's x,y location THEN
-//			INCREMENT tharin health by 10
-//			END IF
 //	CREATE mushroom javascript Object object
 //		SET x location property to random
 //		SET y location property to random
-//		IF mushroom coordinates equal tharin's coordinate THEN
-//			SET x,y location property to random
+//	WHILE count <= 10
+//		OBTAIN user input
+//		IF user input equals up,down,right,left
+//			move tharin according to the input
+//			print current tharinc coordinates
+//			IF tharin coordinates are above 5,5 and below 1,1
+//				INCREMENT or DECREMENT coordinate by 1
+//				PRINT warning for user
+//			IF tharin location = mushroom location
+//				RESET muchroom location
+//				PRINT congratulations
+//				INCREASE tharin health by 10
+//			IF tharin horizontal location or vertical location equals muchroom's vertical or horizontal location
+//				PRINT user hint
 //	IF tharin health >= 40 THEN 
-//		PRINT end game message.
+//		PRINT end game message and count.
 
 // Initial Code
 
@@ -139,9 +148,7 @@ var tharin = {
 	moveDown: function(){
 		this.yLoc -= 1;
 		count += 1;
-	},
-	hp: 10
-
+	}
 };
 
 var mushroom = {
