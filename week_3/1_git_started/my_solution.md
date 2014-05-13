@@ -3,48 +3,55 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+Start tracking an untracked file.
 
 #### branch
-<!-- Your defnition here -->
+Starts to list all the branches of current repository. Additional command can be added to this to add, create, remove, or switch branches.
 
 #### checkout
-<!-- Your defnition here -->
+Can be used to branches, commits, and files. When checked out from a commit, the working directory is updated to that commit. Checking out is like a "time machine", where it takes you to an older or newer version of a commit, branch, or file.
 
 #### clone
-<!-- Your defnition here -->
+Makes a copy of the repository into the local repository.
 
 #### commit
-<!-- Your defnition here -->
+Stage changes I've made with messages.
 
 #### fetch
-<!-- Your defnition here -->
+Lets me download from a remote repository
 
 #### log
-<!-- Your defnition here -->
+Lists the past commits I've made.
 
 #### merge
-<!-- Your defnition here -->
+Combines two past changes or histroy to one. Literally, "merge".
 
 #### pull
-<!-- Your defnition here -->
+Is like a fetch followed by a merge. The things I got from "fetch" will be merged to my local repository if I have anything in it.
 
 #### push
-<!-- Your defnition here -->
+Syncs the staged files to the repository.
 
 #### reset
-<!-- Your defnition here -->
+Resets a branch to somewhere else in the history.
 
 #### rm
-<!-- Your defnition here -->
+Stops files from being staged or tracked.
 
 #### status
-
+Prints out the status of current branch or repository.
 
 ## Release 4: Git Workflow
 
 - Push files to a remote repository
+1. git add <filename>
+2. git commit -m "message for commit"
+3. git push
 - Fetch changes
+1. git fetch origine
 - Commit locally
+1. git commit -m "message"
 
 ## Release 5: Reflection
+
+This lesson was kind of a no-brainer for me since I've done additional studying on github when I encountered problems with it on week1. Github is still something very scary to me though, since one little mistake makes everything very complicated. I've learned some valuable things while working on this challenge, such as the difference between fetch, clone, and merge.
